@@ -10,7 +10,7 @@ impl Ray {
     pub fn new(origin: Point3, direction: Vec3) -> Ray {
         Ray {
             orig: origin,
-            dir: directon,
+            dir: direction,
         }
     }
 
@@ -23,6 +23,6 @@ impl Ray {
     }
 
     pub fn at(&self, t: f64) -> Point3 {
-        self.orig + (t * self.dir)
+        self.orig + (self.dir * t)
     } 
 }

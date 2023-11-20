@@ -2,7 +2,9 @@ use std::io::Write;
 
 use crate::vec3::Vec3;
 
-// Type alias
+// Type alias for Color 
+// for example Color::new(1.0, 0.0, 0.0) is red 
+// Color::new(0.0, 1.0, 0.0) is green and so on
 pub type Color = Vec3;
 
 pub fn write_color(out: &mut impl Write, pixel_color: Color) {
