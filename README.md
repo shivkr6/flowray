@@ -4,7 +4,7 @@ Flowray is a Ray tracer written in Rust.
 
 # Screenshots 
 
-![](screenshot)
+![](screenshot.png)
 
 ### Work in progress
 
